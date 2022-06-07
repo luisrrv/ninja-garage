@@ -1,97 +1,61 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# ♿️ AllyMaps
 
-# 🤖 How to use github
+🚗 A marketplace where you can rent unique looking cars.
 
-=============================================================
+_DROP SCREENSHOT HERE_
+<br>
+App home: [NinjaGarage](https://ninja-garage.herokuapp.com/)
+   
 
-## 🏆 2 GOLDEN RULES
+## Getting Started
+### Setup
 
-=============================================================
+Install gems
+```
+bundle install
+```
+Install JS packages
+```
+yarn install
+```
 
-- **Never** commit directly to master. Use feature branches
+### ENV Variables
+Create `.env` file
+```
+touch .env
+```
+Inside `.env`, set these variables. For any APIs, see group Slack channel.
+```
+CLOUDINARY_URL=your_own_cloudinary_url_key
+```
 
-- **Always** make sure **git status is clean** before pull, checkout or merge.
+### DB Setup
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-=============================================================
+### Run a server
+```
+rails s
+```
 
-## 🌟 how to BRANCH
+## Built With
+- [Rails 6](https://guides.rubyonrails.org/) - Backend / Front-end
+- [Stimulus JS](https://stimulus.hotwired.dev/) - Front-end JS
+- [Heroku](https://heroku.com/) - Deployment
+- [PostgreSQL](https://www.postgresql.org/) - Database
+- [Bootstrap](https://getbootstrap.com/) — Styling
+- [Figma](https://www.figma.com) — Prototyping
 
-=============================================================
+## Acknowledgements
+Inspired by Jane Mount's [Bibliophile](https://www.amazon.com/Bibliophile-Illustrated-Miscellany-Jane-Mount/dp/1452167230) and a story my father once told me: "Why do we keep books? ... We keep books because they remind us of the new perspectives and lessons we learned".
 
-1: "**git checkout master**" to move to MASTER
+## Team Members
+- [Tirso Pascual](https://www.github.com/tirsop)
+- [Yuki Harwood](https://www.github.com/yharwood)
+- [Kenji Yanagawa](https://www.github.com/KenjiYANAGAWA)
 
-2: "**git pull origin master**" to update your local master to the latest
-
-3: "**git checkout -b BRANCH-NAME**" to create and move to YOUR OWN BRANCH to work with
-
-4: "**git branch**" to see the list of existing branches
-
-5: Work on stuff in YOUR branch (NOT MASTER!!!)
-
-6: "**git add**" "**git commit**" Make sure you are NOT in MASTER branch
-
-7: "**git push origin BRANCH-NAME**"
-
-8: "**git status**" to make sure the status is CLEAN
-
-9: "**gh browse**" to go to github page on browser and click "Pull request"
-
-10: If there's conflict, discuss with teamates.
-
-11: Lead Dev merges and deletes the branch.
-
-12: "**git checkout master**" to go back to master
-
-13: "**git pull origin master**" to get the latest code
-
-14: "**git sweep**" on your terminal to delete the branch from your local machine
-
-15: "**git branch**" to see if the branch was successfully deleted
-
-===============================================================
-
-## 🎊 If you want load the latest changes into YOUR BRANCH
-
-===============================================================
-
-1: "**git checkout master**" to move to master
-
-2: "**git pull origin master**"
-
-3: "**git checkout YOUR-BRANCH**" to come back to your own branch
-
-4: "**git merge master**"
-
-===============================================================
-
-## ⚠️ In case of conflict
-
-===============================================================
-
-
-
-git status # ⚠️ ⚠️ ⚠️ Make sure it's clean before proceeding
-
-git checkout master
-
-git pull origin master          
-#pull the latest changes
-
-git checkout unmergeable-branch 
-#switch back to your branch
-
-git merge master                
-#merge the new changes from master into your branch
-
-#Open your text editor and solve conflicts (locate them with cmd + shift + f `<<<<<`)
-
-#When solved, we need to finish the merge
-
-git add .                           
-#add the files in conflict
-
-git commit --no-edit                
-#commit using the default commit message
-
-git push origin unmergeable-branch  
-#push our branch again
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
