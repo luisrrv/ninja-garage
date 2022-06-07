@@ -1,6 +1,6 @@
-# ♿️ AllyMaps
+# 🚗 Ninja Garage
 
-🚗 A marketplace where you can rent unique looking cars.
+A marketplace where you can rent unique looking cars.
 
 _DROP SCREENSHOT HERE_
 <br>
