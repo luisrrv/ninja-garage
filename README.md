@@ -1,6 +1,6 @@
 # 🚗 Ninja Garage
 
-A marketplace where you can rent unique looking cars.
+A marketplace where you can rent unique looking cars from the Japanese categories of "Itasha", "Bosozoku Bike", and "Decotora".
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/69304255/172329064-09f359a2-9a5c-4020-9bf8-4fd9b03b3df0.png" width="300" />
