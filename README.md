@@ -64,5 +64,5 @@ rails s
 - [Yuki Harwood](https://www.github.com/yharwood)
 - [Kenji Yanagawa](https://www.github.com/KenjiYANAGAWA)
 
-## Contributing
+## Contributing 👫
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
