@@ -16,7 +16,7 @@ App home: https://ninja-garage.herokuapp.com/
    
 
 ## Getting Started
-### Setup
+### Setup 
 
 Install gems
 ```
@@ -37,7 +37,7 @@ Inside `.env`, set these variables. For any APIs, see group Slack channel.
 CLOUDINARY_URL=your_own_cloudinary_url_key
 ```
 
-### DB Setup
+### DB Setup ⚙️
 ```
 rails db:create
 rails db:migrate
@@ -49,7 +49,7 @@ rails db:seed
 rails s
 ```
 
-## Built With
+## Built With 🛠
 - [Rails 6](https://guides.rubyonrails.org/) - Backend / Front-end
 - [Stimulus JS](https://stimulus.hotwired.dev/) - Front-end JS
 - [Heroku](https://heroku.com/) - Deployment
@@ -58,7 +58,7 @@ rails s
 - [Figma](https://www.figma.com) — Prototyping
 
 
-## Team Members
+## Team Members 👥
 - [Luis Rodriguez](https://www.github.com/luisrrv)
 - [Tirso Pascual](https://www.github.com/tirsop)
 - [Yuki Harwood](https://www.github.com/yharwood)
